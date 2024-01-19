@@ -1,0 +1,19 @@
+Data Structure:
+A data structure is a collection of data organized in some fashion. The structure
+not only stores data, but also supports operation for accessing and manipulation of data.
+
+// toys [car,dragon, plush, book]   [car,dragon,plush,book, books]
+// Array
+// List (Dynamic Array)
+// Faraz , Zevar, AJ -> First In First Out  FIFO -> QUEUE
+// 📚-> Stack -> Last In First Out
+// SET
+// Key: Value -> Zevar :571-334-3456
+List , Set , Queue
+Map
+
+List<Student> list;
+Java Generics
+
+
+//c

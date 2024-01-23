@@ -17,6 +17,10 @@ public class ZevarManagement implements StudentService {
 
     @Override
     public void readStudents() {
+         if(studentList.isEmpty()){
+             System.out.println("No students in the list");
+             return;
+         }
         for (Student student : studentList) {
             System.out.println(student);
         }
@@ -56,6 +60,32 @@ public class ZevarManagement implements StudentService {
 
     @Override
     public void deleteStudent() {
+        // Collection Framework
+        // Containers
+        //
+        if(studentList.isEmpty()){
+            System.out.println("No students found");
+            return;
+        }
+        readStudents();
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("PLease enter the name of the student to remove ");
+
+        String name = scanner.nextLine();
+
+        for (Student student : studentList) {
+            if(student.getName().equalsIgnoreCase(name)){
+                studentList.remove(student);
+                System.out.println(" successfully removed student with name:  "+student.getName());
+                break;
+            } else {
+                System.out.println("No students found with name "+name);
+            }
+        }
+
+
+
+        // {A-alpha,B beta,C ceta,D delta}
 
     }
 }

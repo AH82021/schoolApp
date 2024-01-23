@@ -15,5 +15,14 @@ Map
 List<Student> list;
 Java Generics
 
+// Collection Framework
+collection
+list, set, Queue
 
+Map
+HashMap
+HashTable
+TreeMap
+
+map
 //c

@@ -40,6 +40,9 @@ public class ZevarSchoolApp {
                 case 3 :
                    management.updateStudent();
                    break;
+                 case 4 :
+                     management.deleteStudent();
+                     break;
                 case 0:
                     System.out.println(" Exit the application , bye ");
                     System.exit(0);
